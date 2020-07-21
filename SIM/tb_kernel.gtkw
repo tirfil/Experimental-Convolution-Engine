@@ -1,0 +1,81 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Mon May 18 19:39:31 2020
+[*]
+[dumpfile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_kernel.ghw"
+[dumpfile_mtime] "Mon May 18 15:22:31 2020"
+[dumpfile_size] 14921
+[savefile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_kernel.gtkw"
+[timestart] 271400000
+[size] 1411 884
+[pos] 229 -6
+*-26.411524 560000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_kernel.
+[treeopen] top.tb_kernel.i_kernel_0.
+[treeopen] top.tb_kernel.i_kernel_0.i_fp16adder_2.
+[treeopen] top.tb_kernel.i_kernel_0.i_kernel9_0.
+[sst_width] 205
+[signals_width] 243
+[sst_expanded] 1
+[sst_vpaned_height] 540
+@28
+[color] 1
+top.tb_kernel.done
+top.tb_kernel.syncout
+top.tb_kernel.last
+top.tb_kernel.sync
+top.tb_kernel.nrst
+top.tb_kernel.mclk
+@22
+#{top.tb_kernel.din[15:0]} top.tb_kernel.din[15] top.tb_kernel.din[14] top.tb_kernel.din[13] top.tb_kernel.din[12] top.tb_kernel.din[11] top.tb_kernel.din[10] top.tb_kernel.din[9] top.tb_kernel.din[8] top.tb_kernel.din[7] top.tb_kernel.din[6] top.tb_kernel.din[5] top.tb_kernel.din[4] top.tb_kernel.din[3] top.tb_kernel.din[2] top.tb_kernel.din[1] top.tb_kernel.din[0]
+#{top.tb_kernel.k[15:0]} top.tb_kernel.k[15] top.tb_kernel.k[14] top.tb_kernel.k[13] top.tb_kernel.k[12] top.tb_kernel.k[11] top.tb_kernel.k[10] top.tb_kernel.k[9] top.tb_kernel.k[8] top.tb_kernel.k[7] top.tb_kernel.k[6] top.tb_kernel.k[5] top.tb_kernel.k[4] top.tb_kernel.k[3] top.tb_kernel.k[2] top.tb_kernel.k[1] top.tb_kernel.k[0]
+[color] 1
+#{top.tb_kernel.dout[15:0]} top.tb_kernel.dout[15] top.tb_kernel.dout[14] top.tb_kernel.dout[13] top.tb_kernel.dout[12] top.tb_kernel.dout[11] top.tb_kernel.dout[10] top.tb_kernel.dout[9] top.tb_kernel.dout[8] top.tb_kernel.dout[7] top.tb_kernel.dout[6] top.tb_kernel.dout[5] top.tb_kernel.dout[4] top.tb_kernel.dout[3] top.tb_kernel.dout[2] top.tb_kernel.dout[1] top.tb_kernel.dout[0]
+@28
+[color] 3
+top.tb_kernel.i_kernel_0.i_kernel9_0.icnt
+top.tb_kernel.i_kernel_0.i_kernel9_0.nexticnt
+top.tb_kernel.i_kernel_0.i_kernel9_0.state
+top.tb_kernel.i_kernel_0.i_kernel9_0.mult1start
+top.tb_kernel.i_kernel_0.mult2start
+@22
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[15] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[14] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[13] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[12] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[11] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[10] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[9] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[8] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[7] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[6] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[5] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[4] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[3] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[2] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[1] top.tb_kernel.i_kernel_0.i_kernel9_0.reg1[0]
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[15] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[14] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[13] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[12] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[11] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[10] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[9] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[8] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[7] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[6] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[5] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[4] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[3] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[2] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[1] top.tb_kernel.i_kernel_0.i_kernel9_0.reg2[0]
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[15] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[14] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[13] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[12] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[11] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[10] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[9] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[8] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[7] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[6] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[5] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[4] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[3] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[2] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[1] top.tb_kernel.i_kernel_0.i_kernel9_0.reg3[0]
+@200
+-
+@22
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[15] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[14] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[13] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[12] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[11] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[10] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[9] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[8] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[7] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[6] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[5] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[4] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[3] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[2] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[1] top.tb_kernel.i_kernel_0.i_kernel9_0.mult1out[0]
+@28
+top.tb_kernel.i_kernel_0.i_fp16mult_1.done
+@22
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[15] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[14] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[13] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[12] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[11] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[10] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[9] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[8] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[7] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[6] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[5] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[4] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[3] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[2] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[1] top.tb_kernel.i_kernel_0.i_kernel9_0.mult2out[0]
+@28
+top.tb_kernel.i_kernel_0.i_fp16mult_2.done
+@200
+-
+@28
+top.tb_kernel.i_kernel_0.adder1start
+@22
+#{top.tb_kernel.i_kernel_0.adder1ina[15:0]} top.tb_kernel.i_kernel_0.adder1ina[15] top.tb_kernel.i_kernel_0.adder1ina[14] top.tb_kernel.i_kernel_0.adder1ina[13] top.tb_kernel.i_kernel_0.adder1ina[12] top.tb_kernel.i_kernel_0.adder1ina[11] top.tb_kernel.i_kernel_0.adder1ina[10] top.tb_kernel.i_kernel_0.adder1ina[9] top.tb_kernel.i_kernel_0.adder1ina[8] top.tb_kernel.i_kernel_0.adder1ina[7] top.tb_kernel.i_kernel_0.adder1ina[6] top.tb_kernel.i_kernel_0.adder1ina[5] top.tb_kernel.i_kernel_0.adder1ina[4] top.tb_kernel.i_kernel_0.adder1ina[3] top.tb_kernel.i_kernel_0.adder1ina[2] top.tb_kernel.i_kernel_0.adder1ina[1] top.tb_kernel.i_kernel_0.adder1ina[0]
+#{top.tb_kernel.i_kernel_0.adder1inb[15:0]} top.tb_kernel.i_kernel_0.adder1inb[15] top.tb_kernel.i_kernel_0.adder1inb[14] top.tb_kernel.i_kernel_0.adder1inb[13] top.tb_kernel.i_kernel_0.adder1inb[12] top.tb_kernel.i_kernel_0.adder1inb[11] top.tb_kernel.i_kernel_0.adder1inb[10] top.tb_kernel.i_kernel_0.adder1inb[9] top.tb_kernel.i_kernel_0.adder1inb[8] top.tb_kernel.i_kernel_0.adder1inb[7] top.tb_kernel.i_kernel_0.adder1inb[6] top.tb_kernel.i_kernel_0.adder1inb[5] top.tb_kernel.i_kernel_0.adder1inb[4] top.tb_kernel.i_kernel_0.adder1inb[3] top.tb_kernel.i_kernel_0.adder1inb[2] top.tb_kernel.i_kernel_0.adder1inb[1] top.tb_kernel.i_kernel_0.adder1inb[0]
+#{top.tb_kernel.i_kernel_0.adder1out[15:0]} top.tb_kernel.i_kernel_0.adder1out[15] top.tb_kernel.i_kernel_0.adder1out[14] top.tb_kernel.i_kernel_0.adder1out[13] top.tb_kernel.i_kernel_0.adder1out[12] top.tb_kernel.i_kernel_0.adder1out[11] top.tb_kernel.i_kernel_0.adder1out[10] top.tb_kernel.i_kernel_0.adder1out[9] top.tb_kernel.i_kernel_0.adder1out[8] top.tb_kernel.i_kernel_0.adder1out[7] top.tb_kernel.i_kernel_0.adder1out[6] top.tb_kernel.i_kernel_0.adder1out[5] top.tb_kernel.i_kernel_0.adder1out[4] top.tb_kernel.i_kernel_0.adder1out[3] top.tb_kernel.i_kernel_0.adder1out[2] top.tb_kernel.i_kernel_0.adder1out[1] top.tb_kernel.i_kernel_0.adder1out[0]
+@28
+top.tb_kernel.i_kernel_0.i_fp16adder_1.done
+top.tb_kernel.i_kernel_0.i_kernel9_0.adder2start
+@22
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[15] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[14] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[13] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[12] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[11] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[10] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[9] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[8] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[7] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[6] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[5] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[4] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[3] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[2] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[1] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2ina[0]
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[15] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[14] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[13] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[12] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[11] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[10] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[9] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[8] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[7] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[6] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[5] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[4] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[3] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[2] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[1] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2inb[0]
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[15] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[14] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[13] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[12] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[11] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[10] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[9] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[8] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[7] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[6] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[5] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[4] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[3] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[2] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[1] top.tb_kernel.i_kernel_0.i_kernel9_0.adder2out[0]
+@28
+top.tb_kernel.i_kernel_0.i_fp16adder_2.done
+top.tb_kernel.i_kernel_0.adder3start
+@22
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[15] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[14] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[13] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[12] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[11] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[10] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[9] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[8] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[7] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[6] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[5] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[4] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[3] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[2] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[1] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3ina[0]
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[15] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[14] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[13] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[12] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[11] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[10] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[9] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[8] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[7] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[6] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[5] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[4] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[3] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[2] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[1] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3inb[0]
+#{top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[15:0]} top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[15] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[14] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[13] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[12] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[11] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[10] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[9] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[8] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[7] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[6] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[5] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[4] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[3] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[2] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[1] top.tb_kernel.i_kernel_0.i_kernel9_0.adder3out[0]
+@28
+top.tb_kernel.i_kernel_0.i_fp16adder_3.done
+[pattern_trace] 1
+[pattern_trace] 0

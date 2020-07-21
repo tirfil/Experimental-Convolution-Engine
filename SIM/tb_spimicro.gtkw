@@ -1,0 +1,72 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Sun Jun  7 10:58:46 2020
+[*]
+[dumpfile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_spimicro.ghw"
+[dumpfile_mtime] "Sun Jun  7 10:50:30 2020"
+[dumpfile_size] 6432
+[savefile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_spimicro.gtkw"
+[timestart] 0
+[size] 1511 856
+[pos] -1 -1
+*-28.475023 665000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_spimicro.
+[treeopen] top.tb_spimicro.i_spimicro_0.
+[sst_width] 205
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 245
+@28
+top.tb_spimicro.i_spimicro_0.lso
+top.tb_spimicro.i_spimicro_0.ensi
+top.tb_spimicro.i_spimicro_0.esi
+top.tb_spimicro.i_spimicro_0.mwen2
+top.tb_spimicro.i_spimicro_0.mwen1
+top.tb_spimicro.i_spimicro_0.mwen0
+top.tb_spimicro.i_spimicro_0.idle
+top.tb_spimicro.i_spimicro_0.start
+top.tb_spimicro.i_spimicro_0.sck
+top.tb_spimicro.i_spimicro_0.miso
+top.tb_spimicro.i_spimicro_0.mosi
+top.tb_spimicro.i_spimicro_0.ss
+top.tb_spimicro.i_spimicro_0.nrst
+top.tb_spimicro.i_spimicro_0.mclk
+@22
+#{top.tb_spimicro.maddr[13:0]} top.tb_spimicro.maddr[13] top.tb_spimicro.maddr[12] top.tb_spimicro.maddr[11] top.tb_spimicro.maddr[10] top.tb_spimicro.maddr[9] top.tb_spimicro.maddr[8] top.tb_spimicro.maddr[7] top.tb_spimicro.maddr[6] top.tb_spimicro.maddr[5] top.tb_spimicro.maddr[4] top.tb_spimicro.maddr[3] top.tb_spimicro.maddr[2] top.tb_spimicro.maddr[1] top.tb_spimicro.maddr[0]
+#{top.tb_spimicro.xy[15:0]} top.tb_spimicro.xy[15] top.tb_spimicro.xy[14] top.tb_spimicro.xy[13] top.tb_spimicro.xy[12] top.tb_spimicro.xy[11] top.tb_spimicro.xy[10] top.tb_spimicro.xy[9] top.tb_spimicro.xy[8] top.tb_spimicro.xy[7] top.tb_spimicro.xy[6] top.tb_spimicro.xy[5] top.tb_spimicro.xy[4] top.tb_spimicro.xy[3] top.tb_spimicro.xy[2] top.tb_spimicro.xy[1] top.tb_spimicro.xy[0]
+#{top.tb_spimicro.md[15:0]} top.tb_spimicro.md[15] top.tb_spimicro.md[14] top.tb_spimicro.md[13] top.tb_spimicro.md[12] top.tb_spimicro.md[11] top.tb_spimicro.md[10] top.tb_spimicro.md[9] top.tb_spimicro.md[8] top.tb_spimicro.md[7] top.tb_spimicro.md[6] top.tb_spimicro.md[5] top.tb_spimicro.md[4] top.tb_spimicro.md[3] top.tb_spimicro.md[2] top.tb_spimicro.md[1] top.tb_spimicro.md[0]
+@200
+-
+@28
+top.tb_spimicro.i_spimicro_0.i_micro_0.mem
+top.tb_spimicro.i_spimicro_0.i_micro_0.state
+top.tb_spimicro.i_spimicro_0.i_micro_0.lsop
+top.tb_spimicro.i_spimicro_0.i_micro_0.ensip
+top.tb_spimicro.i_spimicro_0.i_micro_0.esip
+top.tb_spimicro.i_spimicro_0.i_micro_0.ssp
+top.tb_spimicro.i_spimicro_0.i_micro_0.lso3
+top.tb_spimicro.i_spimicro_0.i_micro_0.lso2
+top.tb_spimicro.i_spimicro_0.i_micro_0.lso1
+top.tb_spimicro.i_spimicro_0.i_micro_0.ensi3
+top.tb_spimicro.i_spimicro_0.i_micro_0.ensi2
+top.tb_spimicro.i_spimicro_0.i_micro_0.ensi1
+top.tb_spimicro.i_spimicro_0.i_micro_0.esi3
+top.tb_spimicro.i_spimicro_0.i_micro_0.esi2
+top.tb_spimicro.i_spimicro_0.i_micro_0.esi1
+top.tb_spimicro.i_spimicro_0.i_micro_0.ss3
+top.tb_spimicro.i_spimicro_0.i_micro_0.ss2
+top.tb_spimicro.i_spimicro_0.i_micro_0.ss1
+top.tb_spimicro.i_spimicro_0.i_micro_0.mwen2
+top.tb_spimicro.i_spimicro_0.i_micro_0.mwen1
+top.tb_spimicro.i_spimicro_0.i_micro_0.mwen0
+top.tb_spimicro.i_spimicro_0.i_micro_0.idle
+top.tb_spimicro.i_spimicro_0.i_micro_0.start
+top.tb_spimicro.i_spimicro_0.i_micro_0.lso
+top.tb_spimicro.i_spimicro_0.i_micro_0.ensi
+top.tb_spimicro.i_spimicro_0.i_micro_0.esi
+top.tb_spimicro.i_spimicro_0.i_micro_0.ss
+top.tb_spimicro.i_spimicro_0.i_micro_0.nrst
+top.tb_spimicro.i_spimicro_0.i_micro_0.mclk
+[pattern_trace] 1
+[pattern_trace] 0

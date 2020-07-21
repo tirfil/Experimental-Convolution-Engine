@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Mon May 25 13:36:10 2020
+[*]
+[dumpfile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_controller.ghw"
+[dumpfile_mtime] "Mon May 25 13:28:50 2020"
+[dumpfile_size] 3569
+[savefile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_ctrl.gtkw"
+[timestart] 457100000
+[size] 1920 1005
+[pos] -1 -1
+*-27.045835 1379100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_controller.
+[sst_width] 205
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 542
+@28
+top.tb_controller.running
+top.tb_controller.ken
+top.tb_controller.sync0
+top.tb_controller.sync1
+top.tb_controller.sync2
+top.tb_controller.last0
+top.tb_controller.last1
+@29
+top.tb_controller.last2
+@28
+top.tb_controller.start
+top.tb_controller.nrst
+top.tb_controller.mclk
+@22
+#{top.tb_controller.daddr[13:0]} top.tb_controller.daddr[13] top.tb_controller.daddr[12] top.tb_controller.daddr[11] top.tb_controller.daddr[10] top.tb_controller.daddr[9] top.tb_controller.daddr[8] top.tb_controller.daddr[7] top.tb_controller.daddr[6] top.tb_controller.daddr[5] top.tb_controller.daddr[4] top.tb_controller.daddr[3] top.tb_controller.daddr[2] top.tb_controller.daddr[1] top.tb_controller.daddr[0]
+#{top.tb_controller.kaddr[3:0]} top.tb_controller.kaddr[3] top.tb_controller.kaddr[2] top.tb_controller.kaddr[1] top.tb_controller.kaddr[0]
+@28
+top.tb_controller.i_controller_0.state
+[pattern_trace] 1
+[pattern_trace] 0

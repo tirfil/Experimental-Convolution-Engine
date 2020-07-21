@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Fri May  8 21:42:09 2020
+[*]
+[dumpfile] "/home/user/Documents/vhdl/cnn3x3/SIM/wave.ghw"
+[dumpfile_mtime] "Fri May  8 21:38:01 2020"
+[dumpfile_size] 3233
+[savefile] "/home/user/Documents/vhdl/cnn3x3/SIM/w.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-28.556175 741000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_ksliceoto.
+[sst_width] 205
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 155
+@28
+top.tb_ksliceoto.tic
+top.tb_ksliceoto.nrst
+top.tb_ksliceoto.mclk
+top.tb_ksliceoto.sync
+top.tb_ksliceoto.cnt
+top.tb_ksliceoto.mdone
+top.tb_ksliceoto.mstart
+@22
+#{top.tb_ksliceoto.mi1[15:0]} top.tb_ksliceoto.mi1[15] top.tb_ksliceoto.mi1[14] top.tb_ksliceoto.mi1[13] top.tb_ksliceoto.mi1[12] top.tb_ksliceoto.mi1[11] top.tb_ksliceoto.mi1[10] top.tb_ksliceoto.mi1[9] top.tb_ksliceoto.mi1[8] top.tb_ksliceoto.mi1[7] top.tb_ksliceoto.mi1[6] top.tb_ksliceoto.mi1[5] top.tb_ksliceoto.mi1[4] top.tb_ksliceoto.mi1[3] top.tb_ksliceoto.mi1[2] top.tb_ksliceoto.mi1[1] top.tb_ksliceoto.mi1[0]
+#{top.tb_ksliceoto.mi0[15:0]} top.tb_ksliceoto.mi0[15] top.tb_ksliceoto.mi0[14] top.tb_ksliceoto.mi0[13] top.tb_ksliceoto.mi0[12] top.tb_ksliceoto.mi0[11] top.tb_ksliceoto.mi0[10] top.tb_ksliceoto.mi0[9] top.tb_ksliceoto.mi0[8] top.tb_ksliceoto.mi0[7] top.tb_ksliceoto.mi0[6] top.tb_ksliceoto.mi0[5] top.tb_ksliceoto.mi0[4] top.tb_ksliceoto.mi0[3] top.tb_ksliceoto.mi0[2] top.tb_ksliceoto.mi0[1] top.tb_ksliceoto.mi0[0]
+@28
+top.tb_ksliceoto.i_kslice_0.astart
+top.tb_ksliceoto.i_kslice_0.adone
+[pattern_trace] 1
+[pattern_trace] 0

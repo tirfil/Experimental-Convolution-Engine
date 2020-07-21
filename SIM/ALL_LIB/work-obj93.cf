@@ -1,0 +1,70 @@
+v 4
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_top_1.vhd" "6b9c05cbeb647ba54c1540f82da38132f6527af1" "20200618201747.295":
+  entity tb_top at 10( 178) + 0 on 1931;
+  architecture stimulus of tb_top at 24( 645) + 0 on 1932;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/top.vhd" "b21e6c51891077a14eb5d748f4a8606048f9412e" "20200618201747.232":
+  entity top at 10( 178) + 0 on 1929;
+  architecture mixed of top at 26( 451) + 0 on 1930;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../MEM/dp16x16.vhd" "110527cb374bdf31fda5b80425f0024360f69038" "20200618201747.195":
+  entity dp16x16 at 10( 213) + 0 on 1927;
+  architecture rtl of dp16x16 at 30( 747) + 0 on 1928;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_spimicro.vhd" "f1f1c0371bdbe71e1bb4d7888955a19f2c679160" "20200607153902.439":
+  entity tb_spimicro at 10( 178) + 0 on 925;
+  architecture stimulus of tb_spimicro at 17( 288) + 0 on 926;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/micro.vhd" "27d71f88a2eb651f2cfce9a5234ba480714a3c85" "20200618201746.989":
+  entity micro at 10( 178) + 0 on 1921;
+  architecture rtl of micro at 39( 951) + 0 on 1922;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_vcore.vhd" "7b1b207c0ce71ad012d89979d7c9e131d044e366" "20200528214519.420":
+  entity tb_vcore at 10( 178) + 0 on 693;
+  architecture stimulus of tb_vcore at 17( 282) + 0 on 694;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/output.vhd" "d5bf390f27099aa18c2ce1d28078e05adf6d4635" "20200618201746.820":
+  entity output at 10( 178) + 0 on 1913;
+  architecture rtl of output at 31( 680) + 0 on 1914;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/delay3.vhd" "cecd2dbd8f9b5588add264b2405c9c2c3c449cda" "20200618201746.859":
+  entity delay3 at 10( 178) + 0 on 1915;
+  architecture rtl of delay3 at 24( 449) + 0 on 1916;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_controller.vhd" "489bcaa17ec8b90b6d25879400214f55db5eb15f" "20200525142134.794":
+  entity tb_controller at 10( 178) + 0 on 279;
+  architecture stimulus of tb_controller at 17( 292) + 0 on 280;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/kernel.vhd" "42c4067283a6bde997d3400d39cd5f5e25f6cf10" "20200618201746.664":
+  entity kernel at 10( 178) + 0 on 1909;
+  architecture rtl of kernel at 29( 593) + 0 on 1910;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/kernel9.vhd" "e911793550aa1a586ac0084b7f2540f63a43ae91" "20200618201746.564":
+  entity kernel9 at 10( 178) + 0 on 1907;
+  architecture rtl of kernel9 at 49( 1496) + 0 on 1908;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_kslice.vhd" "ffc5cedeb7fb6d75c7434940eb137eb7fae63355" "20200509210441.873":
+  entity tb_kslice at 10( 178) + 0 on 97;
+  architecture stimulus of tb_kslice at 17( 284) + 0 on 98;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/fp16adder.vhd" "b54eb2666ce458de7f2dcf716cf92e78e8ce7114" "20200618201746.402":
+  entity fp16adder at 10( 231) + 0 on 1903;
+  architecture rtl of fp16adder at 26( 594) + 0 on 1904;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/ksliceoto.vhd" "ec0f9c1d0f117bb3365d901dc829934dff4999d8" "20200509210441.613":
+  entity ksliceoto at 10( 178) + 0 on 89;
+  architecture rtl of ksliceoto at 39( 1003) + 0 on 90;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_ksliceoto.vhd" "b6dc5eed789c19ae619cccb5eb4ddf9d665e47ff" "20200508214215.542":
+  entity tb_ksliceoto at 10( 178) + 0 on 43;
+  architecture stimulus of tb_ksliceoto at 17( 290) + 0 on 44;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/fp16mult.vhd" "57d4c2cc7b3701405bb31a29a1e18f8cb733ac3c" "20200618201746.499":
+  entity fp16mult at 10( 231) + 0 on 1905;
+  architecture rtl of fp16mult at 26( 592) + 0 on 1906;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/kslice.vhd" "8451620a0b2b2fb43c64522afecbeaab3f4d4528" "20200509210441.837":
+  entity kslice at 10( 178) + 0 on 95;
+  architecture struct of kslice at 29( 626) + 0 on 96;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../TEST/tb_kernel.vhd" "03ff66890b71e25530d1f2ba12f3ad50ba38cbf8" "20200518210627.577":
+  entity tb_kernel at 10( 178) + 0 on 231;
+  architecture stimulus of tb_kernel at 17( 284) + 0 on 232;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/controller.vhd" "05da65eb83f0638f452c379a7a96d107215cc1f8" "20200618201746.716":
+  entity controller at 10( 178) + 0 on 1911;
+  architecture rtl of controller at 34( 748) + 0 on 1912;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/vcore.vhd" "c68f5989182e4532c3373332c37fe22db3d01dfa" "20200618201746.891":
+  entity vcore at 10( 178) + 0 on 1917;
+  architecture struct of vcore at 32( 753) + 0 on 1918;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/spimicro.vhd" "8a2977b20b7a3ba323397b2119ed7ac31f7defec" "20200618201747.116":
+  entity spimicro at 10( 178) + 0 on 1923;
+  architecture struct of spimicro at 36( 830) + 0 on 1924;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../VHDL/spislave.vhd" "23fca234367584f58b95f67525c54054b5125f70" "20200618201746.936":
+  entity spislave at 10( 187) + 0 on 1919;
+  architecture rtl of spislave at 29( 645) + 0 on 1920;
+file "/home/user/Documents/vhdl/cnn3x3/SIM/" "../MEM/dp16384x16.vhd" "3a903fae4cdebc6e572ec21021d7347b038c5bdd" "20200618201747.155":
+  entity dp16384x16 at 10( 213) + 0 on 1925;
+  architecture rtl of dp16384x16 at 30( 755) + 0 on 1926;

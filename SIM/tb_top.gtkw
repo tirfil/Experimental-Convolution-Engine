@@ -1,0 +1,117 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Tue Jun 16 20:14:02 2020
+[*]
+[dumpfile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_top.ghw"
+[dumpfile_mtime] "Tue Jun 16 17:26:33 2020"
+[dumpfile_size] 460399
+[savefile] "/home/user/Documents/vhdl/cnn3x3/SIM/tb_top.gtkw"
+[timestart] 88704400000
+[size] 1920 1005
+[pos] -7 -48
+*-26.127588 88860000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_top.
+[treeopen] top.tb_top.i_top_0.
+[treeopen] top.tb_top.i_top_0.i_vcore_0.
+[treeopen] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.
+[treeopen] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.
+[sst_width] 263
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 631
+@28
+top.tb_top.mclk
+top.tb_top.nrst
+top.tb_top.ss
+top.tb_top.mosi
+top.tb_top.miso
+top.tb_top.sck
+@200
+-
+@28
+top.tb_top.idle
+top.tb_top.i_top_0.start
+@22
+#{top.tb_top.i_top_0.address_reg[13:0]} top.tb_top.i_top_0.address_reg[13] top.tb_top.i_top_0.address_reg[12] top.tb_top.i_top_0.address_reg[11] top.tb_top.i_top_0.address_reg[10] top.tb_top.i_top_0.address_reg[9] top.tb_top.i_top_0.address_reg[8] top.tb_top.i_top_0.address_reg[7] top.tb_top.i_top_0.address_reg[6] top.tb_top.i_top_0.address_reg[5] top.tb_top.i_top_0.address_reg[4] top.tb_top.i_top_0.address_reg[3] top.tb_top.i_top_0.address_reg[2] top.tb_top.i_top_0.address_reg[1] top.tb_top.i_top_0.address_reg[0]
+@28
+top.tb_top.i_top_0.mwen0
+top.tb_top.i_top_0.mwen2
+@22
+#{top.tb_top.i_top_0.mq1[15:0]} top.tb_top.i_top_0.mq1[15] top.tb_top.i_top_0.mq1[14] top.tb_top.i_top_0.mq1[13] top.tb_top.i_top_0.mq1[12] top.tb_top.i_top_0.mq1[11] top.tb_top.i_top_0.mq1[10] top.tb_top.i_top_0.mq1[9] top.tb_top.i_top_0.mq1[8] top.tb_top.i_top_0.mq1[7] top.tb_top.i_top_0.mq1[6] top.tb_top.i_top_0.mq1[5] top.tb_top.i_top_0.mq1[4] top.tb_top.i_top_0.mq1[3] top.tb_top.i_top_0.mq1[2] top.tb_top.i_top_0.mq1[1] top.tb_top.i_top_0.mq1[0]
+@200
+-
+@22
+#{top.tb_top.i_top_0.wa[13:0]} top.tb_top.i_top_0.wa[13] top.tb_top.i_top_0.wa[12] top.tb_top.i_top_0.wa[11] top.tb_top.i_top_0.wa[10] top.tb_top.i_top_0.wa[9] top.tb_top.i_top_0.wa[8] top.tb_top.i_top_0.wa[7] top.tb_top.i_top_0.wa[6] top.tb_top.i_top_0.wa[5] top.tb_top.i_top_0.wa[4] top.tb_top.i_top_0.wa[3] top.tb_top.i_top_0.wa[2] top.tb_top.i_top_0.wa[1] top.tb_top.i_top_0.wa[0]
+@28
+top.tb_top.i_top_0.wen
+@200
+-
+@28
+top.tb_top.i_top_0.i_vcore_0.i_kernel_0.done
+top.tb_top.i_top_0.i_vcore_0.i_kernel_1.done
+top.tb_top.i_top_0.i_vcore_0.i_kernel_2.done
+@22
+#{top.tb_top.i_top_0.i_vcore_0.d0[15:0]} top.tb_top.i_top_0.i_vcore_0.d0[15] top.tb_top.i_top_0.i_vcore_0.d0[14] top.tb_top.i_top_0.i_vcore_0.d0[13] top.tb_top.i_top_0.i_vcore_0.d0[12] top.tb_top.i_top_0.i_vcore_0.d0[11] top.tb_top.i_top_0.i_vcore_0.d0[10] top.tb_top.i_top_0.i_vcore_0.d0[9] top.tb_top.i_top_0.i_vcore_0.d0[8] top.tb_top.i_top_0.i_vcore_0.d0[7] top.tb_top.i_top_0.i_vcore_0.d0[6] top.tb_top.i_top_0.i_vcore_0.d0[5] top.tb_top.i_top_0.i_vcore_0.d0[4] top.tb_top.i_top_0.i_vcore_0.d0[3] top.tb_top.i_top_0.i_vcore_0.d0[2] top.tb_top.i_top_0.i_vcore_0.d0[1] top.tb_top.i_top_0.i_vcore_0.d0[0]
+#{top.tb_top.i_top_0.i_vcore_0.d1[15:0]} top.tb_top.i_top_0.i_vcore_0.d1[15] top.tb_top.i_top_0.i_vcore_0.d1[14] top.tb_top.i_top_0.i_vcore_0.d1[13] top.tb_top.i_top_0.i_vcore_0.d1[12] top.tb_top.i_top_0.i_vcore_0.d1[11] top.tb_top.i_top_0.i_vcore_0.d1[10] top.tb_top.i_top_0.i_vcore_0.d1[9] top.tb_top.i_top_0.i_vcore_0.d1[8] top.tb_top.i_top_0.i_vcore_0.d1[7] top.tb_top.i_top_0.i_vcore_0.d1[6] top.tb_top.i_top_0.i_vcore_0.d1[5] top.tb_top.i_top_0.i_vcore_0.d1[4] top.tb_top.i_top_0.i_vcore_0.d1[3] top.tb_top.i_top_0.i_vcore_0.d1[2] top.tb_top.i_top_0.i_vcore_0.d1[1] top.tb_top.i_top_0.i_vcore_0.d1[0]
+#{top.tb_top.i_top_0.i_vcore_0.d2[15:0]} top.tb_top.i_top_0.i_vcore_0.d2[15] top.tb_top.i_top_0.i_vcore_0.d2[14] top.tb_top.i_top_0.i_vcore_0.d2[13] top.tb_top.i_top_0.i_vcore_0.d2[12] top.tb_top.i_top_0.i_vcore_0.d2[11] top.tb_top.i_top_0.i_vcore_0.d2[10] top.tb_top.i_top_0.i_vcore_0.d2[9] top.tb_top.i_top_0.i_vcore_0.d2[8] top.tb_top.i_top_0.i_vcore_0.d2[7] top.tb_top.i_top_0.i_vcore_0.d2[6] top.tb_top.i_top_0.i_vcore_0.d2[5] top.tb_top.i_top_0.i_vcore_0.d2[4] top.tb_top.i_top_0.i_vcore_0.d2[3] top.tb_top.i_top_0.i_vcore_0.d2[2] top.tb_top.i_top_0.i_vcore_0.d2[1] top.tb_top.i_top_0.i_vcore_0.d2[0]
+#{top.tb_top.i_top_0.i_vcore_0.dout[15:0]} top.tb_top.i_top_0.i_vcore_0.dout[15] top.tb_top.i_top_0.i_vcore_0.dout[14] top.tb_top.i_top_0.i_vcore_0.dout[13] top.tb_top.i_top_0.i_vcore_0.dout[12] top.tb_top.i_top_0.i_vcore_0.dout[11] top.tb_top.i_top_0.i_vcore_0.dout[10] top.tb_top.i_top_0.i_vcore_0.dout[9] top.tb_top.i_top_0.i_vcore_0.dout[8] top.tb_top.i_top_0.i_vcore_0.dout[7] top.tb_top.i_top_0.i_vcore_0.dout[6] top.tb_top.i_top_0.i_vcore_0.dout[5] top.tb_top.i_top_0.i_vcore_0.dout[4] top.tb_top.i_top_0.i_vcore_0.dout[3] top.tb_top.i_top_0.i_vcore_0.dout[2] top.tb_top.i_top_0.i_vcore_0.dout[1] top.tb_top.i_top_0.i_vcore_0.dout[0]
+@200
+-
+@22
+#{top.tb_top.i_top_0.i_vcore_0.ka[3:0]} top.tb_top.i_top_0.i_vcore_0.ka[3] top.tb_top.i_top_0.i_vcore_0.ka[2] top.tb_top.i_top_0.i_vcore_0.ka[1] top.tb_top.i_top_0.i_vcore_0.ka[0]
+#{top.tb_top.i_top_0.da[13:0]} top.tb_top.i_top_0.da[13] top.tb_top.i_top_0.da[12] top.tb_top.i_top_0.da[11] top.tb_top.i_top_0.da[10] top.tb_top.i_top_0.da[9] top.tb_top.i_top_0.da[8] top.tb_top.i_top_0.da[7] top.tb_top.i_top_0.da[6] top.tb_top.i_top_0.da[5] top.tb_top.i_top_0.da[4] top.tb_top.i_top_0.da[3] top.tb_top.i_top_0.da[2] top.tb_top.i_top_0.da[1] top.tb_top.i_top_0.da[0]
+#{top.tb_top.i_top_0.i_vcore_0.kq[15:0]} top.tb_top.i_top_0.i_vcore_0.kq[15] top.tb_top.i_top_0.i_vcore_0.kq[14] top.tb_top.i_top_0.i_vcore_0.kq[13] top.tb_top.i_top_0.i_vcore_0.kq[12] top.tb_top.i_top_0.i_vcore_0.kq[11] top.tb_top.i_top_0.i_vcore_0.kq[10] top.tb_top.i_top_0.i_vcore_0.kq[9] top.tb_top.i_top_0.i_vcore_0.kq[8] top.tb_top.i_top_0.i_vcore_0.kq[7] top.tb_top.i_top_0.i_vcore_0.kq[6] top.tb_top.i_top_0.i_vcore_0.kq[5] top.tb_top.i_top_0.i_vcore_0.kq[4] top.tb_top.i_top_0.i_vcore_0.kq[3] top.tb_top.i_top_0.i_vcore_0.kq[2] top.tb_top.i_top_0.i_vcore_0.kq[1] top.tb_top.i_top_0.i_vcore_0.kq[0]
+#{top.tb_top.i_top_0.i_vcore_0.dq[15:0]} top.tb_top.i_top_0.i_vcore_0.dq[15] top.tb_top.i_top_0.i_vcore_0.dq[14] top.tb_top.i_top_0.i_vcore_0.dq[13] top.tb_top.i_top_0.i_vcore_0.dq[12] top.tb_top.i_top_0.i_vcore_0.dq[11] top.tb_top.i_top_0.i_vcore_0.dq[10] top.tb_top.i_top_0.i_vcore_0.dq[9] top.tb_top.i_top_0.i_vcore_0.dq[8] top.tb_top.i_top_0.i_vcore_0.dq[7] top.tb_top.i_top_0.i_vcore_0.dq[6] top.tb_top.i_top_0.i_vcore_0.dq[5] top.tb_top.i_top_0.i_vcore_0.dq[4] top.tb_top.i_top_0.i_vcore_0.dq[3] top.tb_top.i_top_0.i_vcore_0.dq[2] top.tb_top.i_top_0.i_vcore_0.dq[1] top.tb_top.i_top_0.i_vcore_0.dq[0]
+@200
+-
+@28
+top.tb_top.i_top_0.i_vcore_0.sync0
+top.tb_top.i_top_0.i_vcore_0.sync1
+top.tb_top.i_top_0.i_vcore_0.sync2
+@200
+-
+@28
+top.tb_top.i_top_0.i_vcore_0.last1
+top.tb_top.i_top_0.i_vcore_0.last0
+top.tb_top.i_top_0.i_vcore_0.last2
+@200
+-
+@28
+top.tb_top.i_top_0.i_vcore_0.i_controller_0.suppress
+top.tb_top.i_top_0.i_vcore_0.i_controller_0.state
+top.tb_top.i_top_0.i_vcore_0.i_controller_0.cnt
+top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_kernel9_0.nodone
+top.tb_top.i_top_0.i_vcore_0.i_kernel_1.i_kernel9_0.nodone
+top.tb_top.i_top_0.i_vcore_0.i_kernel_2.i_kernel9_0.nodone
+top.tb_top.i_top_0.i_vcore_0.i_controller_0.xidx
+top.tb_top.i_top_0.i_vcore_0.i_controller_0.yidx
+top.tb_top.i_top_0.i_vcore_0.i_kernel_1.i_kernel9_0.state
+top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_kernel9_0.state
+top.tb_top.i_top_0.i_vcore_0.i_kernel_2.i_kernel9_0.last2
+top.tb_top.i_top_0.i_vcore_0.i_kernel_2.i_kernel9_0.last1
+top.tb_top.i_top_0.i_vcore_0.i_kernel_1.i_kernel9_0.last2
+top.tb_top.i_top_0.i_vcore_0.i_kernel_1.i_kernel9_0.last1
+@200
+-
+@28
+top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.start
+@22
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[15:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[15] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[14] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[13] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[12] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[11] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in1[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[15:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[15] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[14] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[13] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[12] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[11] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.in2[0]
+@28
+top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.done
+@22
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[15:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[15] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[14] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[13] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[12] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[11] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.out0[0]
+@28
+top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.state
+@22
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[10:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m1[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[10:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_2.m2[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[10:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.m3[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x1[4:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x1[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x1[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x1[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x1[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x1[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x2[4:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x2[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x2[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x2[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x2[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x2[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x3[4:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x3[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x3[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x3[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x3[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.x3[0]
+#{top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[21:0]} top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[21] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[20] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[19] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[18] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[17] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[16] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[15] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[14] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[13] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[12] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[11] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[10] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[9] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[8] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[7] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[6] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[5] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[4] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[3] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[2] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[1] top.tb_top.i_top_0.i_vcore_0.i_kernel_0.i_fp16mult_1.mr[0]
+[pattern_trace] 1
+[pattern_trace] 0

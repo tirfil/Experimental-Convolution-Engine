@@ -1,0 +1,26 @@
+function(ticks){
+ var t, cnt=[], cnt1=[];
+ for (t = 0; t < ticks; t++) {
+     cnt.push(t%24 + '');
+   	 cnt1.push(t%8 +' ');
+ }
+ return {signal: [
+  {name: 'clk', wave: 'p'.repeat(ticks)},
+  {name: 'cnt', wave: '2'.repeat(ticks), data: cnt },
+  {name: 'cyc', wave: '2'.repeat(ticks), data: cnt1 },
+  {name: 'MULT1', wave: '2....x..2....x..2....x..3....x..3....x..3...', data: ['K0*D0','K1*D3','K2*D6','K0*D9','K1*D12','K2*D15']},
+  {name: 'MULT2', wave: 'xx2....x..2....x..2....x..3....x..3....x..3.', data: ['K3*D1','K4*D4','K5*D7','K3*D10','K4*D13','K5*D16']},
+  {name: 'MULT1', wave: 'xxxx2....x..2....x..2....x..3....x..3....x..', data: ['K6*D2','K7*D5','K8*D8','K6*D11','K7*D14']},
+  {name: 'REG1', wave:  'xxxx2..x....2..x....2..x....3..x....3..x....', data: ['MULT1', 'MULT1','MULT1','MULT1','MULT1']},
+  {name: 'ADDER1',wave: 'xxxxxx2.......x.......2.......x.......3.....', data : ['MULT2 + REG1','MULT2 + REG1','MULT2 + REG1']},
+  {name: 'ADDER1',wave: 'xxxxxxxxxxxxxx2.......x.......3.......x.....', data : ['MULT2 + REG1','MULT2 + REG1','MULT2 + REG1']},
+  {name: 'REG2',wave: '3x.3..x.2.....x......2...x.2..x.3.....x.....', data : ['DER1','ADDER3','MULT1','ADDER1','ADDER3','MULT1',]},
+  {name: 'ADDER2', wave: '3.......xxxxx2.......x..2.......x....3......', data: ['REG2 + MULT1','REG2 + ADDER1', 'REG2 + MULT1','REG2 + ADDER1']},
+  {name: 'REG3', wave: 'x......3.....x..2....x.........2.....x..3...', data: ['ADDER2', 'MULT1','ADDER2','MULT1']},
+  {name: 'ADDER3', wave: '3...x3.......x......2.......x2.......x......', data: ['REG3 + ADDER2', 'REG2 + ADDER1','REG3 + ADDER2','REG2 + ADDER1']},
+  {name: 'ADDER3', wave: 'x...........3.......x...............2.......', data: ['REG3 + ADDER3','REG3 + ADDER3']},
+  {name: 'DONE', wave: '0..................10......................1'}
+ ]}}(44)
+  
+
+  
