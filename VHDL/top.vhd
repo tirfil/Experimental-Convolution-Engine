@@ -93,13 +93,13 @@ architecture mixed of top is
 		);
 	end component;
 	
-	--component pll
-	--PORT
-	--(
-		--inclk0		: IN STD_LOGIC  := '0';
-		--c0			: OUT STD_LOGIC 
-	--);
-	--end component;
+	component pll
+	PORT
+	(
+		inclk0		: IN STD_LOGIC  := '0';
+		c0			: OUT STD_LOGIC 
+	);
+	end component;
 
 
 signal nrstsync : std_logic;
@@ -113,26 +113,26 @@ signal address_reg, wa, da : std_logic_vector(13 downto 0);
 signal ka : std_logic_vector(3 downto 0);
 begin
 
-	PRESET: process(MCLK, nRST)
+	PRESET: process(C0, nRST)
 	begin
 		if (nRST = '0') then
 			nrst0 <= '0';
 			nrst1 <= '0';
 			nrstsync <= '0';
-		elsif (MCLK'event and MCLK = '1') then
+		elsif (C0'event and C0 = '1') then
 			nrst0 <= '1';
 			nrst1 <= nrst0;
 			nrstsync <= nrst1;
 		end if;
 	end process PRESET;
 	
-	C0 <= MCLK; -- waiting PLL
+	--C0 <= MCLK; -- waiting PLL
 	
-	--I_pll : pll
-		--port map (
-			--inclk0 => MCLK,
-			--c0 => C0
-		--);
+	I_pll : pll
+		port map (
+			inclk0 => MCLK,
+			c0 => C0
+		);
 	
 	MISO <= miso_i when SS='0' else 'Z';
 	word0 <= (others=>'0');
@@ -140,7 +140,7 @@ begin
 	
 	I_spimicro_0 : spimicro
 		port map (
-			MCLK		=> MCLK,
+			MCLK		=> C0,
 			nRST		=> nrstsync,
 			SS			=> SS,
 			MOSI		=> MOSI,
@@ -165,7 +165,7 @@ begin
 	
 	I_vcore_0 : vcore
 		port map (
-			MCLK		=> MCLK,
+			MCLK		=> C0,
 			nRST		=> nrstsync,
 			START		=> start,
 			IDLE		=> idle_i,

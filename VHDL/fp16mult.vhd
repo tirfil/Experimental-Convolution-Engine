@@ -69,20 +69,27 @@ begin
 					state <= S_0;
 					M1(9 downto 0) <= unsigned(IN1(9 downto 0));
 					M1(10) <= '1';
-					if (IN1 = x"0000") then
-						zero <= '1';
-					end if;
+					--if (IN1 = x"0000") then
+						--zero <= '1';
+					--end if;
 					M2(9 downto 0) <= unsigned(IN2(9 downto 0));
 					M2(10) <= '1';
-					if (IN2 = x"0000") then
-						zero <= '1';
-					end if;					
+					--if (IN2 = x"0000") then
+						--zero <= '1';
+					--end if;					
 					X1 <= unsigned(IN1(14 downto 10));
 					X2 <= unsigned(IN2(14 downto 10));
 					S1 <= IN1(15);
 					S2 <= IN2(15);
 				end if;
 			elsif ( state = S_0 ) then
+				-- solve timing issue
+				if (S1 & X1 & M1(9 downto 0) = "0000") then
+					zero <= '1';
+				end if;	
+				if (S2 & X2 & M2(9 downto 0) = "0000") then
+					zero <= '1';
+				end if;						
 				S3 <= S1 xor S2;
 				MR <= M1 * M2;
 				X3 <= X1 + X2 - 14;
